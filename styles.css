@@ -141,6 +141,8 @@ h4{
     margin: auto;
     border: none;
     border-radius: 10px;
+    background-color: lightblue;
+    color: var(--clr-tertiary);
 }
 
 .modal::backdrop{
@@ -152,6 +154,7 @@ h4{
     padding: 1rem;
 }
 .modal .close_modal{
+font-weight: 500;
 background: none;
 border: none;
 text-transform: uppercase;
@@ -163,4 +166,24 @@ bottom: 10px;
 .modal .close_modal:hover{
     cursor: pointer;
     color: var(--clr-secondary);
+}
+
+.modal p{
+    padding: 0 50px 30px 50px;
+}
+.modal .form .button{
+    margin: auto;
+    padding: 8px 20px 8px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--clr-secondary);
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 180px;
+    transition: all .4s ease;
+}
+.modal .form .button:hover{
+    background-color: var(--clr-tertiary);
+    cursor: pointer;
 }
